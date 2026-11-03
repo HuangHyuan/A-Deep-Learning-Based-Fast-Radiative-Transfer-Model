@@ -1,0 +1,18 @@
+* text=auto eol=lf
+*.ipynb text eol=lf
+*.f90 text eol=lf
+*.sh text eol=lf
+*.ps1 text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.h5 binary
+*.hdf5 binary
+*.nc binary
+*.npz binary
+*.npy binary
+*.pth binary
+*.pt binary
+*.pkl binary

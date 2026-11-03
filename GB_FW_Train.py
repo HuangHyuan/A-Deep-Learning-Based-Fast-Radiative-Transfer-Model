@@ -8,7 +8,6 @@ from torch.cuda.amp import autocast, GradScaler  # For mixed precision training
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
-import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error
 from torch.utils.data import DataLoader, TensorDataset, random_split
 from torch.utils.data import Dataset

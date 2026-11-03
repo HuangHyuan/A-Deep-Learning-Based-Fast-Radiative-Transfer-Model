@@ -1,0 +1,44 @@
+{
+  "output_h5": "/path/to/revision_data.h5",
+  "output_scalers": "/path/to/revision_data.scalers.pkl",
+  "train": {
+    "clear": {
+      "sim_dir": "/path/train/clear_sim",
+      "nc_dir": "/path/train/clear_nc",
+      "jac_dir": "/path/train/clear_jac",
+      "sim_glob": "*.txt",
+      "nc_glob": "*.nc",
+      "jac_glob": "*.nc",
+      "limit": null
+    },
+    "cloudy": {
+      "sim_dir": "/path/train/cloudy_sim",
+      "nc_dir": "/path/train/cloudy_nc",
+      "jac_dir": "/path/train/cloudy_jac",
+      "sim_glob": "*.txt",
+      "nc_glob": "*.nc",
+      "jac_glob": "*.nc",
+      "limit": null
+    }
+  },
+  "valid": {
+    "clear": {
+      "sim_dir": "/path/valid/clear_sim",
+      "nc_dir": "/path/valid/clear_nc",
+      "jac_dir": "/path/valid/clear_jac",
+      "sim_glob": "*.txt",
+      "nc_glob": "*.nc",
+      "jac_glob": "*.nc",
+      "limit": null
+    },
+    "cloudy": {
+      "sim_dir": "/path/valid/cloudy_sim",
+      "nc_dir": "/path/valid/cloudy_nc",
+      "jac_dir": "/path/valid/cloudy_jac",
+      "sim_glob": "*.txt",
+      "nc_glob": "*.nc",
+      "jac_glob": "*.nc",
+      "limit": null
+    }
+  }
+}

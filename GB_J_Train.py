@@ -446,11 +446,12 @@ def train_with_jacobian_constraint(
     save_path,
     scaler_info_path='./scalers/scaler_info.pkl',
     pretrained_model_path=None,
-    lambda_jac=5e-4,
+    lambda_jac=1e-5,
     jac_freq=1,
     num_epochs=100,
-    batch_size=128,
-    learning_rate=1e-3,
+    batch_size=256,
+    learning_rate=1e-4,
+    early_stop_patience=25,
     device='cuda',
 ):
     """
@@ -544,7 +545,7 @@ def train_with_jacobian_constraint(
     
     # Training tracking
     best_val_loss = float('inf')
-    patience = 25
+    patience = early_stop_patience
     patience_counter = 0
     
     train_losses = []

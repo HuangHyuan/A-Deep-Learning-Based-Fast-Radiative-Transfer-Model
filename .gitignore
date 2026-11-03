@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+
+# Local configuration
+.env
+configs/paths.local.*
+
+# Data
+data/
+external/
+runs/
+outputs/
+model_assets/
+*.h5
+*.hdf5
+*.nc
+*.npz
+*.npy
+*.csv
+*.xlsx
+
+# Checkpoints and fitted objects
+*.pth
+*.pt
+*.pkl
+*.joblib
+*.ckpt
+
+# Figures, documents and logs
+figures/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.docx
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keep the code-only release inventory.
+!docs/FILE_INVENTORY.csv
